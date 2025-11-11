@@ -1,3 +1,5 @@
+This project demonstrates distributed data processing and optimization in PySpark using the Adult Income dataset on Databricks
+
 # **Dataset Description and Source**
 
 The dataset used for this project is the **Adult Income dataset**, also known as the *Census Income dataset*.  
