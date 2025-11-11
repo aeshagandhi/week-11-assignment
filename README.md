@@ -79,7 +79,7 @@ It provides a realistic, structured dataset with categorical and numeric attribu
   | HighSchool | **41.75** |
 - The trend reinforces the earlier pattern - **more advanced education levels correspond to longer working hours**.
 
-### **4️⃣ Gender-Based Income Comparison**
+### **Gender-Based Income Comparison**
 - SQL Query 2 compared income levels between males and females:
   | sex | pct_high_income |
   |------|------------------|
@@ -88,7 +88,7 @@ It provides a realistic, structured dataset with categorical and numeric attribu
 - Males are **more than twice as likely** as females to earn above \$50K, even after controlling for other variables like work hours and education.  
 - This suggests a clear **gender gap** in high-income representation within the dataset.
 
-### **5️⃣ Summary of Observations**
+### **Summary of Observations**
 - Higher education consistently leads to **higher income** and **longer working hours**.
 - **Graduate-level individuals** work the longest hours (44–45 hrs/week) and have the highest share of high earners (>70%).  
 - The **gender disparity** is evident, with men earning high income at more than double the rate of women.
