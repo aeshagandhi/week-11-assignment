@@ -139,6 +139,9 @@ trim(_c13#177350, None) AS native_country#231223, trim(_c14#177351, None) AS inc
 The query is fully supported by Photon.
 ```
 
+![Plan](images/query_plan.jpg)
+
+
 ### **Optimization Summary**
 The largest bottleneck I identified was reading and inferring schema from the 1 GB expanded Adult dataset.  
 To address this:
@@ -197,7 +200,7 @@ The count() action triggers actual computation, reading data, filtering, and ret
 
 ## Screenshots
 
-### Query Details View - *query_details.jpg*
+### Query Details View - 
 ![Query Details](images/query_details.jpg)
 
 **Description:**
@@ -209,7 +212,7 @@ This view summarizes the performance of the main grouped aggregation query (`dis
 
 ---
 
-### Top Operators / Query Optimization - *more_query_details.jpg*
+### Top Operators / Query Optimization - 
 ![Top Operators](images/more_query_details.jpg)
 
 **Description:**
@@ -221,7 +224,7 @@ This Spark UI breakdown highlights where most execution time was spent:
 
 ---
 
-### Successful Pipeline Execution  *successful_query.jpg*
+### Successful Pipeline Execution  
 ![Pipeline Success](images/successful_query.jpg)
 
 **Description:**
