@@ -159,7 +159,7 @@ Although `.cache()` is disabled in serverless compute, this optimization would p
 
 ---
 
-## 3. Actions vs Transformations
+## Actions vs Transformations
 
 Spark distinguishes between **transformations** (lazy) and **actions** (eager).  
 Transformations build up a logical plan but do **not** trigger execution until an action requires a result.
